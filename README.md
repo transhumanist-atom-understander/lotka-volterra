@@ -20,52 +20,40 @@ Dynamical explanations are just one kind of explanation you find in blog posts.
 Which is interesting about them to me is that we have this whole academic tradition of dynamical modeling, for handling similar sorts of explanations.
 
 I also want to add that when a scientist proposes a dynamical model, it is often in a sense "just posting".
-In a way I'm blessed to have a background in mathematical biology.
-You learn to propose bullshit models like the economists do, but it's not so political.
-When Volterra proposed his predator-prey model,
+When Volterra proposed his predator-prey model, he was explaining the observation that even though World War I had given the fish a break from fishing, only the populations of predatory fish had increased, whereas the populations of prey fish had decreased.
+A simple observation like that doesn't determine a mechanism, but it's still worth throwing the idea out there, which is the same as I would say of a lot of blog posts.
 
-In this post I'm going to try and take you through a different kind of cycle, from being enraptured by an insight to seeing it as just one in an ensemble of possibilities.
-Not that we're going to refute this kind of starvation cycle; it's a general mechanism, and presumably happens somewhere.
-Rather, I'm going to walk through a few examples of ecosystems, and hopefully communicate the feeling that this is obviously what's going on, before raising other possibilities.
+Bloggers don't turn their dynamical explanation into a dynamical model.
+Are they missing anything?
+Well, spoilers, not as far as I can tell, but for the rest of the post I'll consider what you get out of a dynamical model.
 
-In fact, I'll start with the standard examples from the Wikipedia article on the Lotka-Volterra model (linked in the previous quote).
-It says:
+## Simulation
 
-> Fluctuating numbers of predators and prey have been observed in natural populations, such as the lynx and snowshoe hare data of the Hudson's Bay Company and the moose and wolf populations in Isle Royale National Park.
+It's actually not obvious that Volterra's predator-prey model explains the observation he started with.
+I suppose that's what applied math is for: when you've made assumptions with non-obvious implications.
 
-Let's take a look.
+Volterra had to do derivations on paper.
+These days we have it easier, and can just simulate.
+In principle we've had it easier since the creation of the personal computer I suppose.
+But in the days before coding agents, I rarely simulated anything that wasn't for school or work.
+But now, why not?
 
-## Hudson's Bay Company lynx and hares
+But returning to Scott Alexander's respectability cascades, what's there to simulate?
+At low initial levels of respectability, one model assumes a few disreputable advocates hurt the cause, so low respectability is stable.
+The other assumes disreputable advocates bring in reptuable ones, so we have a takeoff.
+I could plot one curve going down to zero and another going up, but what's the point?
+We don't seem to be interested in a non-obvious behavior.
 
-![](https://www.mun.ca/biology/scarr/Lynx-Hare_cycle.gif)
+## Comparison to data
 
-([Image source](https://www.mun.ca/biology/scarr/Hudson_Bay_population_cycles.htm))
+When teaching the Lotka-Volterra model, the classic example dataset is the Hudson's Bay company data on lynxes and hares.
+Not population data, but pelts sold; they were not ecologists, they were in the fur business.
+The data spans almost a hundred years and shows clear cycles.
 
-Beautiful cycles, though maybe the dates ring alarm bills.
-Was there really a long running ecological population study in the 19th century?
+For such a classic data set it's also strange.
+The problem is that sometimes the lynx population seems to crash first.
+An early attempt to fit the Lotka-Volterra model to the data resulted in [the paper "Do hares eat lynx?"](https://doi.org/10.1086/282870).
 
-Actually these are not counts of populations, they are counts of pelts.
-Hudson's Bay Company was in the fur business.
-The traditional interpretation is that it's a proxy for population, like trappers are sampling animals.
-
-What do we see.
-In 1845, lynx populations are high, but there's not many hares.
-Lynx populations crash, we suppose due to starvation, and hares reproduce wildly.
-Lynx population grows, then... plumments, not clearly before the hare population?
-
-Many of the cycles go how we expect, with the hare population dropping when the lynx population is high, then the lynx population following.
-But some of them do not; the lynx population seems like it may be crashing simultaneously or even first.
-
-It's pretty hard to judge from a plot like this.
-We can see it more clearly, watching in phase space:
-
-When the clock turn backwards, that's the population crashes coming in the wrong order.
-
-This was first pointed out in [a paper titled "Do hares eat lynx?"](https://doi.org/10.1086/282870)
-Well, that's not the most plausible explanation.
-Here's one that I liked but haven't really judged: these cycles are actually cycles of trapping activity.
-Trappers work other gigs when populations are depleted and return when they recover.
-They preferentially target lynx for their more valuable pelts, explaining why lynx populations sometimes crash first.
-
-If that's true, there should be some record of it, but interpreting the data has turned into a historical problem.
-The good, clean data is modern data from national parks, which is what we'll look at next.
+Maybe it would be good to notice such mismatches between the model and the phenomenon we're trying to explain?
+But first of all, with what data?
+For example, in the respectability cascades post, we don't have a dataset that includes not only the respectability of homosexuality in each year, but also the number of advocates of different levels of respectability.
