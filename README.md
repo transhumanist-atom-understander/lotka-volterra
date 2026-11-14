@@ -56,17 +56,31 @@ That was "[Give Up Seventy Percent Of The Way Through The Hyperstitious Slur Cas
 It's about word use, and frequency of word use by a publication is easy to quantify.
 
 The point I guess would be to notice when a superficial resemblance doesn't hold up.
-For example, the classic dataset for illustrating Lotka-Volterra starvation cycles is [the Hudson's Bay Company dataset](https://www.mun.ca/biology/scarr/Hudson_Bay_population_cycles.htm) quantifying how many lynx and hare pelts they sold over almost a hundred years.
+For example, the classic dataset for illustrating Lotka-Volterra starvation cycles is [the Hudson's Bay Company dataset](https://www.mun.ca/biology/scarr/Hudson_Bay_population_cycles.htm) quantifying how many lynx and hare pelts they sold over almost a hundred years:
+
+
 It seems to show clear cycles, but on closer inspection, it seems that sometimes lynx populations crash first.
 An early attempt to fit the Lotka-Volterra model to the data resulted in [the paper "Do hares eat lynx?"](https://doi.org/10.1086/282870).
 
 But is that important?
 Canadian lynx and hares probably do go through Lotka-Volterra starvation cycles.
-We see them in modern data, for example, [figure 13.1 in this report on the Kluane project](https://www.zoology.ubc.ca/~krebs/downloads/Kluane%20Book%20-%20Ch13%20-%20Coyotes%20and%20Lynx.pdf).
+We see them in modern data, for example, [figure 13.1 in this report on the Kluane project](https://www.zoology.ubc.ca/~krebs/downloads/Kluane%20Book%20-%20Ch13%20-%20Coyotes%20and%20Lynx.pdf), with the caveat that this also reflects animals leaving the study area:
+
+
 I'm not sure what's up with the pelt data.
 [One idea](https://dx.doi.org/10.1007/s10441-018-9333-z) is that there was also cyclical trapping activity, undermining the assumption that pelt counts measure populations.
 But I'm sure any casual attempt to quantify the variables discussed in a blog post would run into even worse issues with whatever you use as a proxy for the variable of interest.
 
 ## Conclusion
 
+My background is in mathematical biology.
+It's interesting because you learn to propose poorly-motivated models you can't really test, just like the economists, but unlike economics it isn't policitized.
 
+There's certainly an art to this kind of thing, which I think I've learned to some extent.
+It's interesting to see that much of the blogosphere is in a sense within the domain of that art.
+But maybe the main thing I've learned is just how hard it is, beyond the resources you'd be willing to put into a blog post.
+Though it's easier than it used to be, with simulation and data analysis software, and coding agents to run it for you.
+
+The optimistic spin, I suppose, is that I can see the continuity, the spectrum from just posting to settled science.
+The more effort you put into deriving consequences of models and checking them against data, the more you know.
+Blogosphere ideas aren't impermissible unscientific speculation, just half-baked.
