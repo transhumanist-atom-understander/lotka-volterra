@@ -16,15 +16,15 @@ Should I say "models"?
 I don't want to call these "dynamical models", there's no system of ordinary differential equations, though I guess you could easily make one up.
 I'll call them "dynamical explanations".
 
-Dynamical explanations are just one kind of explanation you find in blog posts.
-Which is interesting about them to me is that we have this whole academic tradition of dynamical modeling, for handling similar sorts of explanations.
+Among the many mechanistic explanations you see in blog posts, dynamical explanations are those in terms of quantities varying over time, and whether they increase or decrease depends on the other quantities.
+The point of separately considering thsi kind of explanation is that we have this whole academic tradition of dynamical modeling available for formalizing them.
 
 I also want to add that when a scientist proposes a dynamical model, it is often in a sense "just posting".
 When Volterra proposed his predator-prey model, he was explaining the observation that even though World War I had given the fish a break from fishing, only the populations of predatory fish had increased, whereas the populations of prey fish had decreased.
 A simple observation like that doesn't determine a mechanism, but it's still worth throwing the idea out there, which is the same as I would say of a lot of blog posts.
 
 Bloggers don't turn their dynamical explanation into a dynamical model.
-Are they missing anything?
+Are they missing out?
 Well, spoilers, not as far as I can tell, but for the rest of the post I'll consider what you get out of a dynamical model.
 
 ## Simulation
@@ -56,10 +56,17 @@ That was "[Give Up Seventy Percent Of The Way Through The Hyperstitious Slur Cas
 It's about word use, and frequency of word use by a publication is easy to quantify.
 
 The point I guess would be to notice when a superficial resemblance doesn't hold up.
-For example, the classic dataset for illustrating Lotka-Volterra starvation cycles is the Hudson's Bay Company dataset quantifying how many lynx and hare pelts they sold over almost a hundred years.
+For example, the classic dataset for illustrating Lotka-Volterra starvation cycles is [the Hudson's Bay Company dataset](https://www.mun.ca/biology/scarr/Hudson_Bay_population_cycles.htm) quantifying how many lynx and hare pelts they sold over almost a hundred years.
 It seems to show clear cycles, but on closer inspection, it seems that sometimes lynx populations crash first.
 An early attempt to fit the Lotka-Volterra model to the data resulted in [the paper "Do hares eat lynx?"](https://doi.org/10.1086/282870).
 
 But is that important?
 Canadian lynx and hares probably do go through Lotka-Volterra starvation cycles.
+We see them in modern data, for example, [figure 13.1 in this report on the Kluane project](https://www.zoology.ubc.ca/~krebs/downloads/Kluane%20Book%20-%20Ch13%20-%20Coyotes%20and%20Lynx.pdf).
+I'm not sure what's up with the pelt data.
+[One idea](https://dx.doi.org/10.1007/s10441-018-9333-z) is that there was also cyclical trapping activity, undermining the assumption that pelt counts measure populations.
+But I'm sure any casual attempt to quantify the variables discussed in a blog post would run into even worse issues with whatever you use as a proxy for the variable of interest.
+
+## Conclusion
+
 
