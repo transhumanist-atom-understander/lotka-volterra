@@ -82,5 +82,6 @@ But maybe the main thing I've learned is just how hard it is, beyond the resourc
 Though it's easier than it used to be, with simulation and data analysis software, and coding agents to run it for you.
 
 The optimistic spin, I suppose, is that I can see the continuity, the spectrum from just posting to settled science.
-The more effort you put into deriving consequences of models and checking them against data, the more you know.
-Blogosphere ideas aren't impermissible unscientific speculation, just half-baked.
+You propose multiple alternative hypotheses, you derive their consequences, you compare them to data and see which survive.
+The more of that effort you make, the more you know.
+Blogosphere ideas aren't impermissible unscientific speculation, just low-effort.
