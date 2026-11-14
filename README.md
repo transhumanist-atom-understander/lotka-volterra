@@ -5,7 +5,7 @@ We have some variables that vary over time, and for each one, we write how its t
 For example, there's the Lotka-Volterra model, with two variables: the size of a population of prey animals, and the size of a population of predators.
 Instead of showing you the equations, I'll quote [Scott Alexander's summary of the dynamics](https://slatestarcodex.com/2020/05/12/studies-on-slack/):
 
-> Every so often predators (let’s say foxes) reproduce too quickly and outstrip the available supply of prey (let’s say rabbits). There is a brief period of starvation as foxes can’t find any more rabbits and die en masse. This usually ends with a [boom-bust cycle](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations): after most foxes die, the rabbits (who reproduce very quickly and are now free of predation) have a population boom; now there are rabbits everywhere. Eventually the foxes catch up, eat all the new rabbits, and the cycle repeats again.
+> Every so often predators (let’s say foxes) reproduce too quickly and outstrip the available supply of prey (let’s say rabbits). There is a brief period of starvation as foxes can’t find any more rabbits and die _en masse_. This usually ends with a [boom-bust cycle](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations): after most foxes die, the rabbits (who reproduce very quickly and are now free of predation) have a population boom; now there are rabbits everywhere. Eventually the foxes catch up, eat all the new rabbits, and the cycle repeats again.
 
 That's what it looks like in blog post style.
 I think it's interesting to see because a lot of blog posts are similar in form, even if they're not summarizing a model from a quantitative science.
