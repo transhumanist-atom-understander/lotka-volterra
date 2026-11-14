@@ -46,22 +46,20 @@ We don't seem to be interested in a non-obvious behavior.
 
 ## Comparison to data
 
-When teaching the Lotka-Volterra model, the classic example dataset is the Hudson's Bay company data on lynxes and hares.
-Not population data, but pelts sold; they were not ecologists, they were in the fur business.
-The data spans almost a hundred years and shows clear cycles.
-
-For such a classic data set it's also strange.
-The problem is that sometimes the lynx population seems to crash first.
-An early attempt to fit the Lotka-Volterra model to the data resulted in [the paper "Do hares eat lynx?"](https://doi.org/10.1086/282870).
-
-Maybe it would be good to notice such mismatches between the model and the phenomenon we're trying to explain?
-But with what data?
-For example, in the respectability cascades post, we don't have a dataset that includes not only the respectability of homosexuality in each year, but also the number of advocates of different levels of respectability.
+Another thing people do with dynamical models is compare predictions to data.
+I guess we could do that with dynamical explanations in blog posts, but with what data?
+For example, in the respectability cascades post, while we have surveys about the respectability of homosexuality in each year, I don't see how you'd quantify the number of advocates of different levels of respectability.
 For the other topic he considers, the direspectability cascade around endocrine disrupters, we would lack even survey data on the respectability of the topic.
 
-There's a better prospect for data analysis in a more recent post Scott wrote on something like disrespectability cascades.
+There's a better prospect for comparing to data in a more recent post Scott wrote on something like disrespectability cascades.
 That was "[Give Up Seventy Percent Of The Way Through The Hyperstitious Slur Cascade](https://www.astralcodexten.com/p/give-up-seventy-percent-of-the-way)".
 It's about word use, and frequency of word use by a publication is easy to quantify.
 
-But also, how important is it that, on closer inspection, the lynx-hare data doesn't really look like Lotka-Volterra starvation cycles?
-Canadian lynx and hares probably do go through such cycles.
+The point I guess would be to notice when a superficial resemblance doesn't hold up.
+For example, the classic dataset for illustrating Lotka-Volterra starvation cycles is the Hudson's Bay Company dataset quantifying how many lynx and hare pelts they sold over almost a hundred years.
+It seems to show clear cycles, but on closer inspection, it seems that sometimes lynx populations crash first.
+An early attempt to fit the Lotka-Volterra model to the data resulted in [the paper "Do hares eat lynx?"](https://doi.org/10.1086/282870).
+
+But is that important?
+Canadian lynx and hares probably do go through Lotka-Volterra starvation cycles.
+
