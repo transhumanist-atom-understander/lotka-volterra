@@ -20,7 +20,7 @@ Among the many mechanistic explanations you see in blog posts, dynamical explana
 The point of separately considering this kind of explanation is that we have this whole academic tradition of dynamical modeling available for formalizing them.
 
 I also want to add that when a scientist proposes a dynamical model, it is often in a sense "just posting".
-When Volterra proposed his predator-prey model, he was explaining the observation that even though World War I had given the fish a break from fishing, only the populations of predatory fish had increased, whereas the populations of prey fish had decreased.
+[When Volterra proposed his predator-prey model](https://www.nature.com/articles/118558a0), he was explaining the observation that even though World War I had given the fish a break from fishing, only the populations of predatory fish had increased, whereas the populations of prey fish had decreased.
 A simple observation like that doesn't determine a mechanism, but it's still worth throwing the idea out there, which is the same as I would say of a lot of blog posts.
 
 Bloggers don't turn their dynamical explanations into dynamical models.
