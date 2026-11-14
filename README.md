@@ -79,7 +79,7 @@ My background is in mathematical biology.
 It's interesting because you learn to propose poorly motivated models you can't really test, just like the economists, but unlike economics it isn't politicized.
 
 There's certainly an art to this kind of thing, which I think I've learned to some extent.
-It's interesting to see that much of the blogosphere is in a sense within the domain of that art.
+It's interesting to see that much of the blogosphere is within the domain of that art.
 But maybe the main thing I've learned is just how hard it is, beyond the resources you'd be willing to put into a blog post.
 Though it's easier than it used to be, with simulation and data analysis software, and coding agents to run it for you.
 
