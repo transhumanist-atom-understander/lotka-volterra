@@ -58,6 +58,7 @@ It's about word use, and frequency of word use by a publication is easy to quant
 The point, I guess, would be to notice when a superficial resemblance doesn't hold up.
 For example, the classic dataset for illustrating Lotka-Volterra starvation cycles is [the Hudson's Bay Company dataset](https://www.mun.ca/biology/scarr/Hudson_Bay_population_cycles.htm) quantifying how many lynx and hare pelts they bought from trappers over almost a hundred years:
 
+![](https://res.cloudinary.com/lesswrong-2-0/image/upload/v1794625242/lexical_client_uploads/whmb4jibqm5yyqttpcjw.gif)
 
 It seems to show clear cycles, but on closer inspection, it seems that sometimes lynx populations crash first.
 An early attempt to fit a generalization of the Lotka-Volterra model to the data resulted in [the paper "Do hares eat lynx?"](https://doi.org/10.1086/282870).
@@ -66,6 +67,7 @@ But is that important?
 Canadian lynx and hares probably do go through Lotka-Volterra starvation cycles.
 We see them in modern data, for example, [figure 13.1 in this book chapter on the Kluane Project](https://www.zoology.ubc.ca/~krebs/downloads/Kluane%20Book%20-%20Ch13%20-%20Coyotes%20and%20Lynx.pdf), with the caveat that this also reflects animals leaving the study area:
 
+![](https://res.cloudinary.com/lesswrong-2-0/image/upload/v1794625195/lexical_client_uploads/kexhe3t6l6kdnub9rofz.png)
 
 I'm not sure what's up with the pelt data.
 [One idea](https://doi.org/10.1007/s10441-018-9333-z) is that there was also cyclical trapping activity, undermining the assumption that pelt counts measure populations.
